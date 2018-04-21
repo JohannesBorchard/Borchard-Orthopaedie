@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+h1 {
+    white-space: nowrap;
+    margin-left: 40px;
+    f
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.name {
+    display: block;
+    white-space:nowrap;
+    ont-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    font-stretch: normal;
+    margin-left: 10px;
+}
+
+.menu-item-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.active {
+    color: #46877E;
+}
+
+.active:hover {
+    color: #6CA099;
+}

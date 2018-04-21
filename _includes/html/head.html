@@ -1,0 +1,19 @@
+<title>{{page.title}}</title>
+<!-- <link rel="shortcut icon" type="image/png" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}" > -->
+<link rel="canonical" href="https://www.johannesborchard.de">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta name="google-site-verification" content=""> -->
+<meta name="description" {% if page.description %} content="{{ page.description }}" {% else %} content="{{page.excerpt | strip_html}}" {% endif %}>
+<meta name="author" content="Johannes Borchard" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62837996-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-62837996-4');
+</script>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
