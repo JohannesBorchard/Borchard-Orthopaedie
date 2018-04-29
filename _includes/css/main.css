@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    height: 100%;
 }
 
 header {
@@ -20,13 +21,14 @@ main {
 }
 
 main>* {
-    margin-top: 160px;
+    margin-top: 80px;
+    max-width: 940px;
 }
 
 h2 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 36px;
     margin: 0px;
 }
 
@@ -58,7 +60,7 @@ p>a:hover {
 
 button {
     height: 60px;
-    background-color: #f26661;
+    background-color: #46877E;
     color: #ffffff;
     font-size: 24px;
     border: none;
@@ -69,7 +71,65 @@ button {
 }
 
 button:hover {
-    background-color: #FF8D8A;
+    background-color: #6CA099;
     color: #ffffff;
     cursor: pointer;
+}
+
+.ghost-button {
+    border: solid 1px #fff;
+    background: 0 0 !important;
+}
+
+.hero-image {
+    background-image: url("/assets/hero-front.jpg");
+    height: 600px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-text {
+    margin-left: 40px;
+
+    /*text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    
+}
+
+.hero-text > * {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: white !important;
+    margin-bottom: 40px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.introduction p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-image: url('/assets/check.svg');
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    padding: 10px;   
 }

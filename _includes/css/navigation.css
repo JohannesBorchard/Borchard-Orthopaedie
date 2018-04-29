@@ -45,6 +45,7 @@ h1 {
 
 .menu-item {
     margin-right: 20px;
+    white-space: nowrap;
 }
 
 .active {
