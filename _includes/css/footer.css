@@ -2,7 +2,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 160px;
+    /*margin-top: 160px;*/
     height: 300px;
     background-color: #46877E;
 }

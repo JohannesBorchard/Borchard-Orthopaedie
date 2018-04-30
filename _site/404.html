@@ -105,7 +105,10 @@ main {
 
 main>* {
     margin-top: 80px;
-    max-width: 940px;
+    /*max-width: 940px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -211,10 +214,19 @@ button:hover {
     margin-bottom: 10px;
 }
 
-li {
-    list-style-image: url('/assets/check.svg');
+table {
+    border-spacing: 40px;
+}
+
+td {
+    background-image: url('/assets/check.svg');
+    background-size: 18px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    white-space: nowrap;
+    font-size: 22px;
     font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    padding: 10px;   
 }
 		form {
     display: flex;
@@ -260,7 +272,7 @@ form>textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 160px;
+    /*margin-top: 160px;*/
     height: 300px;
     background-color: #46877E;
 }

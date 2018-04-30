@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <title></title>
+    <title>check</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="FontAwesome" font-size="24" font-weight="normal">
-        <text id="" fill="#46877E">
-            <tspan x="-1" y="20"></tspan>
-        </text>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20.879491,4.00891308 C20.879491,4.34373491 20.7455622,4.67855674 20.5044905,4.91962846 L8.98661964,16.4374993 C8.74554793,16.678571 8.4107261,16.8124998 8.07590427,16.8124998 C7.74108244,16.8124998 7.40626062,16.678571 7.1651889,16.4374993 L0.495538093,9.76784852 C0.254466377,9.52677681 0.120537646,9.19195498 0.120537646,8.85713315 C0.120537646,8.52231132 0.254466377,8.18748949 0.495538093,7.94641778 L2.31696884,6.12498704 C2.55804055,5.88391532 2.89286238,5.74998659 3.22768421,5.74998659 C3.56250603,5.74998659 3.89732786,5.88391532 4.13839958,6.12498704 L8.07590427,10.0758846 L16.861629,1.27676697 C17.1027007,1.03569525 17.4375226,0.901766524 17.7723444,0.901766524 C18.1071662,0.901766524 18.4419881,1.03569525 18.6830598,1.27676697 L20.5044905,3.09819771 C20.7455622,3.33926943 20.879491,3.67409126 20.879491,4.00891308 Z" id="check" fill="#46877E"></path>
     </g>
 </svg>
