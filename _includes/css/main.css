@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     height: 100%;
+    background-color: #FBFBFB;
 }
 
 header {
@@ -131,11 +132,18 @@ button:hover {
     margin-bottom: 10px;
 }
 
+img {
+    max-width: 940px;
+    margin-top: 40px;
+}
+
 table {
+    margin-top: 40px;
     border-spacing: 40px;
 }
 
 td {
+    width: 250px;
     background-image: url('/assets/check.svg');
     background-size: 18px;
     background-position: left;
@@ -144,4 +152,28 @@ td {
     white-space: nowrap;
     font-size: 22px;
     font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.brands-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 940px;
+    height: 100%;
+}
+
+.brands {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.brands-icons img {
+    height: 45px;
+    margin-top: 0;
+}
+
+#varomed {
+    height: 50px;
 }
