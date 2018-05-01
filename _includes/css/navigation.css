@@ -5,6 +5,7 @@ nav {
     height: 15%;
     width: 100%;
     position: relative;
+    background-color: #ffffff;
 }
 
 nav a:hover {
