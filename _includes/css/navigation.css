@@ -2,10 +2,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15%;
-    width: 100%;
-    position: relative;
+    height: 120px;
     background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 nav a:hover {
