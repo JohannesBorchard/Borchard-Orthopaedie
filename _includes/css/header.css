@@ -52,6 +52,7 @@
 }
 
 .nav__menu-item {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     margin-right: 20px;
     white-space: nowrap;
 }
@@ -118,12 +119,15 @@
 }
 
 .header__text h1 {
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-size: 48px;
+    line-height: 48px;
     margin-left: 0;
     margin-bottom: 10px;
 }
 
 .header__text p {
     font-size: 36px;
+    line-height: 40px;
     margin-left: 0;
 }
