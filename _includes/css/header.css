@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+    z-index: 0;
+    /*position: relative;*/
+}
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.header__nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav__logo-img {
+    width: 140px;
+}
+
+.nav__logo-name {
+    white-space: nowrap;
+    margin-left: 10px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    font-stretch: normal;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav__menu-item {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.nav__menu-item:hover {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+.nav__menu-item--active {
+    color: #46877E;
+}
+
+.nav__menu-item--active:hover {
+    color: #6CA099;
+}
+
+/* ==========================================================================
+   Hero Image
+   ========================================================================== */
+
+.header__image {
+    height: 85%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__image--left {
+    justify-content: flex-start;
+}
+
+.header__image--center {
+    justify-content: center;
+}
+
+.header__image--home {
+    background-image: url("/assets/hero-front.jpg");
+}
+
+.header__image--ortho {
+    background-image: url("/assets/leisten.jpg");
+}
+
+.header__image--sani {
+    background-image: url("/assets/leisten.jpg");
+}
+
+.header__text {
+    margin-left: 40px;
+    margin-bottom: 80px; 
+}
+
+.header__text h1, .header__text p {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.header__text h1 {
+    font-size: 48px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.header__text p {
+    font-size: 36px;
+    margin-left: 0;
+}

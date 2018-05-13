@@ -5,19 +5,22 @@ description:
 permalink: /
 ---
 
-<header>
-	<nav>
-	    <a href="/" class="logo-group"><img class="logo" src="/assets/logo-simple.png" alt="Logo"><div class="name">Walter Borchard</div></a>
-	    <div class="menu-item-group">
-	        <a href="/" class="menu-item active">Start</a>
-	        <a href="/orthopaedie-schuhtechnik" class="menu-item">Orthopädie-Schuhtechnik</a>
-	        <a href="/sanitaetshaus" class="menu-item">Sanitätshaus</a>
-	        <a href="/firma" class="menu-item">Firma</a>
-	        <a href="/regionale-versorgung" class="menu-item">Regionale Versorgung</a>
+<header class="header header--hero">
+	<nav class="header__nav-bar">
+	    <a href="/" class="nav__logo">
+            <img class="nav__logo-img" src="/assets/logo-simple.png" alt="Logo">
+            <span class="nav__logo-name">Walter Borchard</span>
+        </a>
+	    <div class="nav__menu">
+	        <a href="/" class="nav__menu-item nav__menu-item--active">Start</a>
+	        <a href="/orthopaedie-schuhtechnik" class="nav__menu-item">Orthopädie-Schuhtechnik</a>
+	        <a href="/sanitaetshaus" class="nav__menu-item">Sanitätshaus</a>
+	        <a href="/firma" class="nav__menu-item">Firma</a>
+	        <a href="/regionale-versorgung" class="nav__menu-item">Regionale Versorgung</a>
 	    </div>
 	</nav>
-	<div class="hero-image hero-image-left hero-image-start ">
-	  <div class="hero-text">
+	<div class="header__image header__image--left header__image--home">
+	  <div class="header__text">
 	    <h1>Walter Borchard</h1>
 	    <p>Orthopädie-Schuhtechnik und Sanitätshaus 
 	    <br>Region Rhein-Lahn/Süd-Westerwald</p>
@@ -28,7 +31,7 @@ permalink: /
 </header>
 
 <main>
-    <div class="introduction">
+    <div class="text--large">
         <p>Wir sind Ihr Partner wenn es um Fuß-, Knie- oder Rückenfragen geht.
             <br> Unsere Betriebsstruktur der kurzen Wege ermöglicht es uns, schnell und
             <br> kompetent auf Ihre besonderen Wünsche einzugehen.
@@ -36,46 +39,46 @@ permalink: /
         </p>
         <p>Wir freuen uns auf Ihren Besuch!</p>
     </div>
-    <div class="service-overview">
+    <div class="section">
         <h2>Orthopädie-Schuhtechnik</h2>
-        <table>
+        <table class="overview">
             <tr>
-                <td>Orthopädische Maßschuhe</td>
-                <td>Diabetische Fußversorgung</td>
-                <td>Fuß- und Körperanalyse</td>
+                <td class="overview__service">Orthopädische Maßschuhe</td>
+                <td class="overview__service">Diabetische Fußversorgung</td>
+                <td class="overview__service">Fuß- und Körperanalyse</td>
             </tr>
             <tr>
-                <td>Einlagentechnik</td>
-                <td>3-Sohlen-Konzept</td>
-                <td>Arbeitssicherheitsschuhe</td>
+                <td class="overview__service">Einlagentechnik</td>
+                <td class="overview__service">3-Sohlen-Konzept</td>
+                <td class="overview__service">Arbeitssicherheitsschuhe</td>
             </tr>
         </table>
     </div>
-    <div class="service-overview">
+    <div class="section">
         <h2>Sanitätshaus</h2>
-		<table>
+		<table class="overview">
             <tr>
-                <td>Kompressionsstrümpfe</td>
-                <td>Bandage</td>
-                <td>Orthopädische Gehhilfen</td>
+                <td class="overview__service">Kompressionsstrümpfe</td>
+                <td class="overview__service">Bandage</td>
+                <td class="overview__service">Orthopädische Gehhilfen</td>
             </tr>
             <tr>
-                <td>Orthesen</td>
-                <td>Alltagshilfen</td>
-                <td>Sani-Fit-Shop</td>
+                <td class="overview__service">Orthesen</td>
+                <td class="overview__service">Alltagshilfen</td>
+                <td class="overview__service">Sani-Fit-Shop</td>
             </tr>
         </table>
     </div>
-    <div class="offer">
+    <div class="section">
     	<h2>Aktuelles</h2>
-    	<img src="assets/offer.jpg" alt="Angebot">
+    	<img src="assets/offer.jpg" alt="Angebot" class="offer">
     </div>
-    <div class="brands">
-    	<div class="brands-icons">
-    	<img src="assets/brands/Bauerfeind.png" alt="Bauerfeind">
-    	<img src="assets/brands/Waldlaeufer.png" alt="Waldläufer">
-    	<img src="assets/brands/Egroh.png" alt="EGROH">
-    	<img id="varomed" src="assets/brands/Varomed.png" alt="Varomed">
+    <div class="brand-banner section">
+    	<div class="brands">
+        	<img src="assets/brands/Bauerfeind.png" alt="Bauerfeind" class="brands__icon">
+        	<img src="assets/brands/Waldlaeufer.png" alt="Waldläufer" class="brands__icon">
+        	<img src="assets/brands/Egroh.png" alt="EGROH" class="brands__icon">
+        	<img src="assets/brands/Varomed.png" alt="Varomed" class="brands__icon brands__icon--small">
     	</div>
     </div>
 </main>
