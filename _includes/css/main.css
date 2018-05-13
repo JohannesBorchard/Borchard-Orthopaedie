@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
     /*height: 100%;*/
     background-color: #FBFBFB;
 }
@@ -33,13 +33,19 @@ h2 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
     font-size: 36px;
-    margin: 0px;
+    margin: 0;
 }
 
 h3 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 400;
     font-size: 32px;
+}
+
+h4 {
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 p,
@@ -49,8 +55,8 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #333333;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 p>a {
@@ -86,7 +92,6 @@ button:hover {
 }
 
 .hero-image {
-    background-image: url("/assets/hero-front.jpg");
     height: 85%;
     width: 100%;
 
@@ -97,13 +102,24 @@ button:hover {
 
     display: flex;
     align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-image-left {
     justify-content: flex-start;
+}
+
+.hero-image-start {
+    background-image: url("/assets/hero-front.jpg");
+}
+
+.hero-image-ortho {
+    background-image: url("/assets/leisten.jpg");
 }
 
 .hero-text {
     margin-left: 40px;
-    margin-bottom: 40px;
-
+    margin-bottom: 80px;
     /*text-align: center;
     position: absolute;
     top: 50%;
@@ -120,13 +136,13 @@ button:hover {
 
 .hero-text h1 {
     font-size: 48px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 10px;
 }
 
 .hero-text p {
     font-size: 36px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .introduction p {
@@ -178,4 +194,44 @@ td {
 
 #varomed {
     height: 50px;
+}
+
+.services {
+    max-width: 940px;
+}
+
+.services p {
+    margin-top: 40px;
+}
+
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 940px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
 }
