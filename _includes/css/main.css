@@ -12,9 +12,36 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    
-    
+.section {
+    margin-top: 160px;
+    /*max-width: 940px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__element {
+    margin-top: 80px;
+}
+
+.last-element {
+    margin-bottom: 200px;
+}
+
+
+
+
+/* ==========================================================================
+   Text
+   ========================================================================== */
+
+h1 {
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 120px;
 }
 
 h2 {
@@ -37,9 +64,14 @@ h4 {
     font-size: 22px;
 }
 
+h5 {
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 p,
 a {
-    /*font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;*/
     text-decoration: none;
     color: #333;
     margin-bottom: 0;
@@ -61,15 +93,99 @@ p a:hover {
     color: #FF8D8A;
 }
 
-.text p {
+.text {
     max-width: 940px;
-    margin-top: 40px;
+}
+
+.text h2 {
+    margin-bottom: 40px;
+}
+
+.text h4 {
+    margin-top: 60px;
+}
+
+.text h5 {
+    margin-top: 20px;
+}
+
+.text p {
+    margin-top: 20px;
 }
 
 .text--center p {
     text-align: center;
     margin-bottom: 10px;
 }
+
+.text__element-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__element-row p {
+    width: 50%;
+}
+
+.text__element-row--center {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text__image {
+    display: block;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+.text__image--float {
+    margin-top: 20px;
+}
+
+.text__list {
+    width: 240px;
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.text__list--heading {
+    margin-top: 10px;
+}
+
+.text__list li {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #444;
+}
+
+.feature-table {
+    margin-top: 10px;
+}
+
+.feature-table td {
+    padding: 10px 20px 0px 0;
+}
+
+.feature-table__category {
+    text-align: right;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
 
 .btn {
     height: 60px;
@@ -106,23 +222,25 @@ p a:hover {
     margin-left: auto;
 }
 
-.section__element {
-    margin-top: 80px;
-    
+.btn--back {
+    background-color: #D79A70;
+    /*height: 50px;*/
+    width: 260px;
+    height: auto;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    white-space: nowrap;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+
+    text-align: center;
 }
 
-.section {
-    margin-top: 160px;
-    /*max-width: 940px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.btn--back:hover,
+.btn--read-more:hover {
+    background-color: #FFCDAC;
 }
 
-.last-element {
-    margin-bottom: 200px;
-}
 
 
 
@@ -181,6 +299,7 @@ p a:hover {
 }
 
 
+
 /* ==========================================================================
    Orthopädie-Schuhtechnik/Sanitätshaus
    ========================================================================== */
@@ -207,7 +326,6 @@ p a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .card-link {
@@ -223,9 +341,8 @@ p a:hover {
     margin-top: 40px;
     height: 50px;
     color: #333;
-
-
 }
+
 .card__text p {
     margin-left: 30px;
     margin-right: 20px;
@@ -233,21 +350,7 @@ p a:hover {
 }
 
 .card__list {
-    width: 240px;
-    list-style-type: disc;
-    margin-top: 20px;
     margin-left: 50px;
-    margin-right: 20px;
-}
-
-.card__list li {
-    
-    font-size: 18px;
-    line-height: 20px;
-    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    font-weight: 300;
-    margin-top: 5px;
-    color: #444;
 }
 
 
@@ -273,6 +376,7 @@ p a:hover {
     color: #444;
 }
 
+
 /* ==========================================================================
    Regionale Versorgung
    ========================================================================== */
@@ -291,12 +395,8 @@ p a:hover {
 .institution {
     border-bottom: 1px solid #CCC;
     border-top: 1px solid #CCC;
-
 }
 
-/*.institution:last-child {
-  border-bottom: none;
-}*/
 
 .institution__data {
 
