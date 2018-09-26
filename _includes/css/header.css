@@ -104,7 +104,15 @@
 }
 
 .header__image--sani {
-    background-image: url("/assets/leisten.jpg");
+    background-image: url("/assets/bandage.jpg");
+}
+
+.header__image--firma {
+    background-image: url("/assets/ladenfront.jpg");
+}
+
+.header__image--regio {
+    background-image: url("/assets/landschaft.jpg");
 }
 
 .header__text {
@@ -116,6 +124,7 @@
     font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     color: #fff;
     margin-bottom: 40px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .header__text h1 {
