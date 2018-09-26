@@ -13,6 +13,7 @@ h2 {
     font-weight: 600;
     font-size: 36px;
     margin: 0;
+    text-align: center;
 }
 
 h3 {
@@ -24,7 +25,7 @@ h3 {
 h4 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 p,
@@ -36,7 +37,7 @@ a {
     font-size: 18px;
     line-height: 24px;
     text-decoration: none;
-    color: #333333;
+    color: #333;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -58,7 +59,7 @@ p a:hover {
 
 .text p {
     max-width: 940px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .text--center p {
@@ -97,6 +98,13 @@ p a:hover {
     white-space: nowrap;
     padding: 0;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section__element {
+    margin-top: 80px;
+    
 }
 
 .section {
@@ -105,7 +113,14 @@ p a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+.last-element {
+    margin-bottom: 200px;
+}
+
+
 
 
 
@@ -173,14 +188,14 @@ p a:hover {
     justify-content: center;
     align-items: flex-start;
     max-width: 990px;
-    margin-bottom: 160px;
+    /*margin-top: 80px;*/
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
     width: 300px;
-    height: 350px;
+    height: 380px;
     margin: 10px;
     background-color: #fff;
     border-radius: 7px;
@@ -188,27 +203,68 @@ p a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.card-link {
     cursor: pointer;
 }
 
-.card:hover {
+.card-link:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card__text h4 {
     text-align: center;
     margin-top: 40px;
+    height: 50px;
+    color: #333;
+
+
+}
+.card__text p {
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #444;
 }
 
 .card__list {
+    width: 240px;
     list-style-type: disc;
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .card__list li {
+    
     font-size: 18px;
+    line-height: 20px;
     font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
     margin-top: 5px;
+    color: #444;
+}
+
+
+.pain td {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.table__list {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 260px;
+}
+
+.table__list li {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #444;
 }
