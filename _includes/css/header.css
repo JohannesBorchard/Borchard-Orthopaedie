@@ -125,6 +125,10 @@
     background-image: url("/assets/landschaft.jpg");
 }
 
+.header__image--orthese {
+    background-image: url("/assets/orthese.jpg");
+}
+
 .header__text {
     margin-left: 40px;
     margin-bottom: 80px; 
