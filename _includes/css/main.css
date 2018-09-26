@@ -123,9 +123,9 @@ p a:hover {
     justify-content: space-between;
 }
 
-.text__element-row p {
+/*.text__element-row p {
     width: 50%;
-}
+}*/
 
 .text__element-row--center {
     justify-content: center;
@@ -142,6 +142,10 @@ p a:hover {
 
 .text__image--float {
     margin-top: 20px;
+}
+
+#bauerfeind-plakat {
+    max-height: 600px;
 }
 
 .text__list {
@@ -178,6 +182,10 @@ p a:hover {
     text-align: right;
     font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
+}
+
+.fine-print {
+    font-size: 16px;
 }
 
 
