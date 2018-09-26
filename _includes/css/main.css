@@ -84,13 +84,12 @@ strong {
     font-size: 18px;
 }
 
-p a {
-    font-size: 28px;
-    color: #f26661;
+p a, .text a {
+    color: #D79A70;;
 }
 
 p a:hover {
-    color: #FF8D8A;
+    color: #FFCDAC;
 }
 
 .text {
@@ -144,12 +143,17 @@ p a:hover {
     margin-top: 20px;
 }
 
+.text__image--small {
+    max-height: 100px;
+}
+
 #bauerfeind-plakat {
     max-height: 600px;
 }
 
 .text__list {
-    width: 240px;
+    /*width: 240px;*/
+    max-width: 800px;
     list-style-type: disc;
     margin-top: 20px;
     margin-left: 40px;
@@ -233,13 +237,11 @@ p a:hover {
 
 .btn--back {
     background-color: #D79A70;
-    /*height: 50px;*/
-    width: 260px;
     height: auto;
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-size: 18px;
     white-space: nowrap;
-    padding: 20px 0 20px 0;
+    padding: 20px 20px 20px 20px;
     margin-bottom: 20px;
 
     text-align: center;
