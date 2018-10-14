@@ -206,8 +206,13 @@ p a:hover {
     font-size: 24px;
     border: none;
     border-radius: 4px;
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+
 }
 
 .btn--standard {
@@ -252,6 +257,10 @@ p a:hover {
     background-color: #FFCDAC;
 }
 
+.btn__icon {
+    height: 20px;
+    margin-right: 10px;
+}
 
 
 
