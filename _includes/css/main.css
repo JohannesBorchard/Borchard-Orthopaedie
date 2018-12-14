@@ -435,39 +435,123 @@ p a:hover {
     margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px){
+/* ==========================================================================
+   Mobile version
+   ========================================================================== */
 
-    table, thead, tbody, th, td, tr{
+@media only screen and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .text {
+        margin: 0 60px 0 60px;
+    }
+
+    .institution-table, .institution, .institution__data, thead, tbody, th{
         display: block;
+    } 
+
+    .overview, .overview__service, .overview tr{
+
+        display: block;
+
     }
 
-    /* Hide table headers (but not display: none;, for accessibility) */
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
 
-    tr {
+    .institution{
       margin: 0 0 1rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top: none;
     }
 
-    td {
-        /* Behave  like a "row" */
+    .institution__data {
+
+        line-height: 24px;
+        color: #444;
         border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-    }
+        /*border-bottom: 1px solid #eee;*/
+        text-align: center;
+        padding: 20px 20px 20px 20px;
 
-    td:before {
-        /* Now like a table header */
+    }
+    .institution__data:before{
+ /* Now like a table header */
         position: absolute;
         /* Top/left values mimic padding */
-        top: 0;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
         white-space: nowrap;
+
     }
+
+    .institution-container {
+    align-items: center;
+   }
+
+   .pain, .pain td, .pain tr{
+    
+        display: block;
+
+   }
+
+   .pain td{
+
+    line-height: 24px;
+        color: #444;
+        border: none;
+        /*border-bottom: 1px solid #eee;*/
+        text-align: left;
+
+        padding: 20px 20px 20px 20px;
+
+
+   }
+   .pain tr{
+      margin: 0 0 1rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top: none;
+
+   }
+
+   .pain td:before{
+    /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        white-space: nowrap;
+
+   }
+   .table__list{
+        text-align: left;
+
+   }
+
+   
+   .overview__service{
+
+        line-height: 24px;
+        color: #444;
+        border: none;
+        /*border-bottom: 1px solid #eee;*/
+        text-align: left;
+        padding: 20px 20px 20px 30px;
+
+   }
+   .overview__service:before{
+
+    position: absolute;
+    white-space: nowrap;
+   }
+   .overview tr{
+
+    margin: 0 0 1rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top: none;
+
+   }
+     
 }

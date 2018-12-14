@@ -20,6 +20,17 @@
 	{{content}}
 
 	{% include html/footer.html %}
+
+	<script type="text/javascript">
+        let navBar = document.getElementsByClassName('header__nav-bar');
+        let mainNav = document.getElementsByClassName('nav__menu');
+        let navBarToggle = document.getElementsByClassName('menu-toggle');
+
+        navBarToggle[0].addEventListener('click', function () {
+        mainNav[0].classList.toggle('active');
+        navBar[0].classList.toggle('menu-open');
+        });
+    </script>
 	
 </body>
 

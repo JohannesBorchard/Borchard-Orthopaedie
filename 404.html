@@ -7,6 +7,7 @@ layout: default
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
+    margin-bottom: 80px;
   }
   h1 {
     margin: 30px 0;
@@ -16,9 +17,27 @@ layout: default
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<header class="header header--simple">
+    <nav class="header__nav-bar">
+        <a href="/" class="nav__logo">
+            <img class="nav__logo-img" src="/assets/logo-simple.png" alt="Logo">
+            <span class="nav__logo-name">Walter Borchard</span>
+        </a>
+        <img src="/assets/menu-toggle.svg" class="menu-toggle">
+        <div class="nav__menu">
+            <a href="/" class="nav__menu-item">Start</a>
+            <a href="/orthopaedie-schuhtechnik" class="nav__menu-item">Orthopädie-Schuhtechnik</a>
+            <a href="/sanitaetshaus" class="nav__menu-item">Sanitätshaus</a>
+            <a href="/firma" class="nav__menu-item">Firma</a>
+            <a href="/regionale-versorgung" class="nav__menu-item">Regionale Versorgung</a>
+        </div>
+    </nav>
+    <div>
+        <h1>404</h1>
+    </div>
+</header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="container">
+
+  <p><strong>Seite ist leider nicht verfügbar :(</strong></p>
 </div>
