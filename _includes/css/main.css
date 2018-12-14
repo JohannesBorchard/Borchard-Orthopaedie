@@ -410,6 +410,7 @@ p a:hover {
 .institution-table {
     margin-top: 40px;
     width: 940px;
+    display: block;
 }
 
 .institution {
