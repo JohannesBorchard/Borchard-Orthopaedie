@@ -458,6 +458,8 @@ p a:hover {
         text-align: center;
         margin-left: 40px;
         margin-right: 40px;
+        word-break: break-word;
+        hyphens: auto;
     }
 
     h1 {
