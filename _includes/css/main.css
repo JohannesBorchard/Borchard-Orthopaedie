@@ -460,6 +460,8 @@ p a:hover {
         margin-right: 40px;
         word-break: break-word;
         hyphens: auto;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
     }
 
     h1 {
@@ -538,8 +540,9 @@ p a:hover {
    }
 
    .pain, .pain td, .pain tr{
-    
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
    }
 
@@ -654,5 +657,9 @@ p a:hover {
 
     #timeline-desktop {
         display: none;
+    }
+
+    .text__image {
+        max-width: 300px;
     }
 }
