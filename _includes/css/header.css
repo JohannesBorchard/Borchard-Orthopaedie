@@ -9,7 +9,7 @@
 }
 
 .header--hero {
-    height: 100vh;
+    height: 85vh;
     margin-top: 120px;
     z-index: 0;
 }
@@ -93,7 +93,7 @@
    ========================================================================== */
 
 .header__image {
-    height: 85%;
+    height: 100%;
     width: 100%;
 
     background-position: center;
@@ -249,7 +249,10 @@
     }
 
     .header__image {
-    height: 75%;
-}
+    height: 100%;
+    }
 
+    .header--hero {
+    height: 75vh;
+    }
 }
