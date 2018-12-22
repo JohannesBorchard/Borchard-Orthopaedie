@@ -145,7 +145,7 @@
 }
 
 .header__text--left {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     text-align: left;
 }
 
@@ -157,17 +157,14 @@
 
 .header__text p {
     font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    margin-left: 0;
 }
 
 .header__text h1 {
     margin-left: 0;
     margin-bottom: 10px;
-}
-
-.header__text p {
-    font-size: 36px;
-    line-height: 40px;
-    margin-left: 0;
 }
 
 /* ==========================================================================
@@ -254,5 +251,25 @@
 
     .header--hero {
     height: 75vh;
+    }
+
+    .header__text {
+        margin-bottom: 40px;
+    }
+
+    .header__text p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header__text h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin: 40px 0 40px 0;
+        text-align: left;
+    }
+
+    .header__text a {
+        margin-bottom: 10px;
     }
 }
