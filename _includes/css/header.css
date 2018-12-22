@@ -266,7 +266,7 @@
         font-size: 32px;
         line-height: 36px;
         margin: 40px 0 40px 0;
-        text-align: left;
+        /*text-align: left;*/
     }
 
     .header__text a {
