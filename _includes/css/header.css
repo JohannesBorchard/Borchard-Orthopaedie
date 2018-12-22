@@ -248,4 +248,8 @@
         top: 45px;
     }
 
+    .header__image {
+    height: 75%;
+}
+
 }
