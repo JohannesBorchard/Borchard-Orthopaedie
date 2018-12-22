@@ -138,8 +138,15 @@
 }
 
 .header__text {
-    margin-left: 40px;
     margin-bottom: 80px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.header__text--left {
+    margin-left: 40px;
+    text-align: left;
 }
 
 .header__text h1, .header__text p {
@@ -176,10 +183,12 @@
         align-items: center;
         justify-content: flex-end;
         margin-top: 40px;
+        margin-right: 0;
     }
 
     .nav__menu-item {
         margin-bottom: 10px;
+        margin-right: 0;
     }
 
     .header__nav-bar {
