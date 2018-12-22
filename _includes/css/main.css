@@ -436,6 +436,14 @@ p a:hover {
     margin-bottom: 5px;
 }
 
+
+#timeline-mobil {
+    display: none;
+}
+
+#timeline-desktop {
+    display: block;
+}
 /* ==========================================================================
    Mobile version
    ========================================================================== */
@@ -635,5 +643,14 @@ p a:hover {
         font-size: 18px;
         min-width: 200px;
         padding: 0 20px 0 20px;
+    }
+
+    #timeline-mobil {
+    display: block;
+    width: 300px;
+    }
+
+    #timeline-desktop {
+        display: none;
     }
 }
