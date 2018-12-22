@@ -301,13 +301,13 @@ p a:hover {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    width: 940px;
+    width: 80%;
     height: 100%;
 }
 
 .brand-banner {
-    width: 100%;
     height: 100px;
+    width: 100%;
     background-color: #ffffff;
 }
 
@@ -448,7 +448,7 @@ p a:hover {
    Mobile version
    ========================================================================== */
 
-@media only screen and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px){
+@media only screen and (max-width: 1024px), (min-device-width: 300px) and (max-device-width: 1024px){
 
     main {
         margin-top: 40px;
@@ -614,10 +614,10 @@ p a:hover {
    }
      
      .offer {
-    max-width: 90%;
-    max-height: 200px;
-    width: auto;
-    }
+        max-width: 90%;
+        max-height: 200px;
+        width: auto;
+        }
 
     .brands {
     flex-direction: column;
