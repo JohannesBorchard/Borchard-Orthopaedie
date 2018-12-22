@@ -49,13 +49,13 @@ h2 {
     font-weight: 600;
     font-size: 36px;
     margin: 0;
-    text-align: center;
 }
 
 h3 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 400;
     font-size: 32px;
+    line-height: 36px;
 }
 
 h4 {
@@ -375,9 +375,7 @@ p a:hover {
 
 
 .pain td {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 40px;
+    padding: 0 20px 40px 40px;
 }
 
 .table__list {
@@ -405,6 +403,7 @@ p a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px;
 }
 
 .institution-table {
@@ -447,6 +446,7 @@ p a:hover {
 
     .institution-table, .institution, .institution__data, thead, tbody, th{
         display: block;
+        width: 100%;
     } 
 
     .overview, .overview__service, .overview tr{
@@ -455,9 +455,14 @@ p a:hover {
 
     }
 
+    .section {
+        margin-top: 80px;
+    }
+
 
     .institution{
       margin: 0 0 1rem 0;
+      padding-bottom: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -472,7 +477,7 @@ p a:hover {
         border: none;
         /*border-bottom: 1px solid #eee;*/
         text-align: center;
-        padding: 20px 20px 20px 20px;
+        padding: 10px 20px 10px 20px !important;
 
     }
     .institution__data:before{
@@ -483,8 +488,17 @@ p a:hover {
 
     }
 
+    .institution__phone, .institution__adress {
+        text-align: center;
+    }
+
     .institution-container {
     align-items: center;
+
+   }
+
+   .institution-container h3 {
+    text-align: center;
    }
 
    .pain, .pain td, .pain tr{
