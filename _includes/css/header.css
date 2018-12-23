@@ -83,9 +83,14 @@
 .menu-toggle {
     width: 20px;
     margin-right: 20px;
-    padding:; 10px;
+    /*padding: 10px;*/
     cursor: pointer;
     display: none;
+}
+
+.menu-toggle img {
+    width: 20px;
+    padding-left: 10px;
 }
 
 /* ==========================================================================
@@ -201,8 +206,9 @@
     .menu-toggle {
         position: absolute;
         top: 45px;
-        right: 20px;
-        display: block;
+        right: 60px;
+        display: flex;
+        align-items: center;
     }
 
     .nav__menu {
