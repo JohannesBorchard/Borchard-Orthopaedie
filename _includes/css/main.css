@@ -292,8 +292,15 @@ p a:hover {
 }
 
 .offer {
+    display: block;
     max-width: 940px;
     margin-top: 20px;
+}
+
+.offer-mobile {
+    max-width: 300px;
+    margin-top: 20px;
+    display: none;
 }
 
 .brands {
@@ -613,9 +620,14 @@ p a:hover {
    }
      
      .offer {
-        max-width: 90%;
+        display: none;
+        /*max-width: 90%;
         max-height: 200px;
-        width: auto;
+        width: auto;*/
+        }
+
+        .offer-mobile {
+            display: block;
         }
 
     .brands {
