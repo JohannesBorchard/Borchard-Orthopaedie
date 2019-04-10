@@ -1,4 +1,6 @@
 Sitemap: https://www.http://borchard-orthopaedie-schuhtechnik.de/.de/sitemap.xml
 User-agent: *
 Disallow: /impressum
+Disallow: /404
 Noindex: /impressum
+Noindex: /404
