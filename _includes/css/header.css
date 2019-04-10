@@ -178,7 +178,7 @@
 
 
 
-@media only screen and (max-width: 1280px), (min-device-width: 300px) and (max-device-width: 1024px){
+@media all and (max-width: 1280px), (min-device-width: 768px) and (max-device-width: 1024px){
 
     .nav__menu {
         flex-direction: column;
@@ -224,7 +224,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px){
+@media all and (max-width: 1024px), (min-device-width: 300px) and (max-device-width: 1024px){
     .nav__logo {
     display: flex;
     flex-direction: column;
@@ -277,5 +277,31 @@
 
     .header__text a {
         margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 329px), (min-device-width: 300px) and (max-device-width: 728px){
+.header__image {
+    height: 100%;
+    }
+
+    .header--hero {
+    height: 75vh;
+    }
+
+    .header__text {
+        margin-bottom: 20px;
+    }
+
+    .header__text p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .header__text h1 {
+        font-size: 28px;
+        line-height: 32px;
+        margin: 20px 0 20px 0;
+
     }
 }
