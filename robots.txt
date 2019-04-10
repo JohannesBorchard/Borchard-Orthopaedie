@@ -1,0 +1,4 @@
+Sitemap: https://www.http://borchard-orthopaedie-schuhtechnik.de/.de/sitemap.xml
+User-agent: *
+Disallow: /impressum
+Noindex: /impressum
