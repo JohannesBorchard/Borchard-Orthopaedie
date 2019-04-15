@@ -607,6 +607,14 @@ p a:hover {
 
     }
 
+    .section {
+    margin-top: 80px;
+    }
+
+    .section__element {
+        margin-top: 40px;
+    }
+
     .text {
         margin: 0 40px 0 40px;
         max-width: 300px;
