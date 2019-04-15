@@ -313,6 +313,7 @@ p a:hover {
     flex-direction: row;
     width: 80%;
     height: 100%;
+
 }
 
 .brand-banner {
@@ -324,6 +325,7 @@ p a:hover {
 .brands__icon {
     height: 45px;
     margin-top: 0;
+    align-self: center;
 }
 
 .brands__icon--small {
@@ -465,9 +467,9 @@ p a:hover {
     margin: 0px 20px;
 }
 
-.slick-slide img {
+/*.slick-slide img {
     width: 100%;
-}
+}*/
 
 .slick-slider
 {
@@ -539,7 +541,7 @@ p a:hover {
 {
     display: none;
     float: left;
-    height: 100%;
+    /*height: 100%;*/
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide
@@ -748,21 +750,22 @@ p a:hover {
 
    }
      
-     .offer {
-        display: none;
-        /*max-width: 90%;
-        max-height: 200px;
-        width: auto;*/
-        }
+ .offer {
+    display: none;
+    /*max-width: 90%;
+    max-height: 200px;
+    width: auto;*/
+    }
 
-        .offer-mobile {
-            display: block;
-        }
+    .offer-mobile {
+        display: block;
+    }
 
     .brands {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-wrap: nowrap;
     }
 
     .brand-banner {
@@ -771,14 +774,17 @@ p a:hover {
     }
 
     .brands__icon {
-        height: 45px;
+        height: 60px;
+        width: auto; /*!important = richtiges verhältnis aber doppelt*/
         margin-top: 10px;
         margin-bottom: 10px;
+        align-self: center;
     }
 
     .brands__icon--small {
         height: 50px;
     }
+
 
     .btn {
         height: 60px;
