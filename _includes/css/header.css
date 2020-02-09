@@ -119,15 +119,19 @@
 }
 
 .header__image--home {
-    background-image: url("/assets/hero-front.jpg");
+    background-image: url("/assets/leisten-walter.jpg");
 }
 
 .header__image--ortho {
-    background-image: url("/assets/leisten.jpg");
+    background-image: url("/assets/ortho.jpg");
 }
 
 .header__image--sani {
-    background-image: url("/assets/bandage.jpg");
+    background-image: url("/assets/sani.jpg");
+}
+
+.header__image--bandagen {
+  background-image: url("/assets/bandage.jpg");
 }
 
 .header__image--firma {
