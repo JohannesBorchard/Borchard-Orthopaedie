@@ -94,6 +94,21 @@ p a:hover {
     color: #FFCDAC;
 }
 
+.centered {
+  text-align: center;
+}
+
+.red {
+  color: #ff0000;
+  border: solid #f5c6cb 1px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8d7da;
+
+}
+
+
+
 .text {
     max-width: 940px;
 }
@@ -197,6 +212,11 @@ p a:hover {
     margin-top: 20px;
 }
 
+.margin-bottom__small {
+  margin-bottom: 20px;
+  color: green;
+}
+
 
 
 
@@ -216,7 +236,7 @@ p a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -360,6 +380,14 @@ p a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.card--info {
+  width: 600px;
+  padding: 30px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: none;
 }
 
 .card-link {
@@ -623,7 +651,7 @@ p a:hover {
     .text__element-row {
         flex-direction: column;
     }
-    
+
     .text--center p br {
         display: none;
     }
@@ -631,7 +659,7 @@ p a:hover {
     .institution-table, .institution, .institution__data, thead, tbody, th{
         display: block;
         width: 100%;
-    } 
+    }
 
     .overview, .overview__service, .overview tr{
 
@@ -722,7 +750,7 @@ p a:hover {
 
    }
 
-   
+
    .overview__service{
 
         line-height: 24px;
@@ -757,7 +785,7 @@ p a:hover {
       border-top: none;
 
    }
-     
+
  .offer {
     display: none;
     /*max-width: 90%;
@@ -801,7 +829,7 @@ p a:hover {
         padding: 0 20px 0 20px;
     }
 
-    
+
 
     #timeline-mobil {
     display: block;
