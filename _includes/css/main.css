@@ -253,6 +253,14 @@ p a:hover {
     background: 0 0;
 }
 
+.btn--red {
+  background-color: #D79A70;
+}
+
+.btn--red:hover {
+  background-color: #FFCDAC;
+}
+
 .btn--read-more {
     background-color: #D79A70;
     height: 40px;
