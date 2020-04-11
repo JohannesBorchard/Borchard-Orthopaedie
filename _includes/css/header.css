@@ -134,6 +134,10 @@
   background-image: url("/assets/bandage.jpg");
 }
 
+.header__image--ortho-schuhe {
+  background-image: url("/assets/ortho-schuhe.jpg");
+}
+
 .header__image--firma {
     background-image: url("/assets/fassade.jpg");
 }
