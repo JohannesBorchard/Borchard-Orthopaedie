@@ -1,117 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com
+-->
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://borchard-orthopaedie.de/</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/sanitaetshaus</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://borchard-orthopaedie.de/sanitaetshaus</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/firma</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://borchard-orthopaedie.de/firma</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/regionale-versorgung</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/regionale-versorgung
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/orthopaedische-massschuhe</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/orthopaedische-massschuhe
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/diabetische-fussversorgung</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/diabetische-fussversorgung
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/fuss-und-koerper-analyse</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/fuss-und-koerper-analyse
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/einlagentechnik</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/einlagentechnik
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/3-sohlen-konzept</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/3-sohlen-konzept
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/arbeitssicherheitsschuhe</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/arbeitssicherheitsschuhe
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/sanitaetshaus/kompressionsstruempfe</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/sanitaetshaus/kompressionsstruempfe
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/sanitaetshaus/bandagen</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/sanitaetshaus/bandagen
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/sanitaetshaus/orthesen</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/sanitaetshaus/orthesen
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/impressum</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://borchard-orthopaedie.de/orthopaedie-schuhtechnik/schuhzurichtung
+</loc>
+<lastmod>2020-04-11T14:02:58+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/orthopaedie-schuhtechnik/schuhzurichtung</loc>
-  <lastmod>2019-03-20T08:29:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://borchard-orthopaedie.de/assets/documents/Antrag-auf-Kostenuebernahme.pdf
+</loc>
+<lastmod>2020-04-11T14:02:54+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/assets/documents/Antrag-auf-Kostenuebernahme.pdf</loc>
-  <lastmod>2019-03-20T08:29:35+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://borchard-orthopaedie.de/assets/documents/Antrag_auf_Kostenuebernahme_DTRV.pdf
+</loc>
+<lastmod>2020-04-11T14:02:54+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/assets/documents/Antrag_auf_Kostenuebernahme_DTRV.pdf</loc>
-  <lastmod>2019-03-20T08:29:35+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://borchard-orthopaedie.de/assets/documents/Antrag-auf-Kostenuebernahme_Ortho_Fussschutz.pdf
+</loc>
+<lastmod>2020-04-11T14:02:54+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/assets/documents/Antrag-auf-Kostenuebernahme_Ortho_Fussschutz.pdf</loc>
-  <lastmod>2019-03-20T08:29:35+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://borchard-orthopaedie.de/assets/documents/G0100.pdf
+</loc>
+<lastmod>2020-04-11T14:02:54+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/assets/documents/G0100.pdf</loc>
-  <lastmod>2019-03-20T08:29:35+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://borchard-orthopaedie.de/assets/documents/G0130.pdf
+</loc>
+<lastmod>2020-04-11T14:02:54+00:00</lastmod>
+<priority>0.64</priority>
 </url>
-<url>
-  <loc>http://borchard-orthopaedie-schuhtechnik.de/assets/documents/G0130.pdf</loc>
-  <lastmod>2019-03-20T08:29:35+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>
